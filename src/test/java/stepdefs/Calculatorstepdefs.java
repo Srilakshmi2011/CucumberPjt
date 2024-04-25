@@ -36,7 +36,7 @@ public class Calculatorstepdefs {
 	  
 	}
 	@When("I sub {int} and {int}")
-	public void i_sub_and(Integer num1, Integer num2) {
+	public void i_sub_and(int num1, int num2) {
 	    // Write code here that turns the phrase above into concrete actions
 		result = calc.Sub(num1, num2);
 
